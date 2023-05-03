@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/BMenuiseries/static/css/main.0fcbd3cb.css",
+    "main.js": "/BMenuiseries/static/js/main.0d63640a.js",
+    "static/media/pergola_accueil.jpeg": "/BMenuiseries/static/media/pergola_accueil.785ce5e44e2ac16ab937.jpeg",
+    "static/media/portail_rouge_ouvert.jpg": "/BMenuiseries/static/media/portail_rouge_ouvert.47077320332530074c23.jpg",
+    "static/media/terrasse_accueil.jpg": "/BMenuiseries/static/media/terrasse_accueil.3d9901a774c5b1efa240.jpg",
+    "static/media/instagram_header.png": "/BMenuiseries/static/media/instagram_header.e719d8b29f452a16302d.png",
+    "static/media/instagram_footer.png": "/BMenuiseries/static/media/instagram_footer.79535458a8a6d88f81d4.png",
+    "static/media/Made-in-France.jpg": "/BMenuiseries/static/media/Made-in-France.fd45b758250ae19270a8.jpg",
+    "static/media/fleche_bouton.png": "/BMenuiseries/static/media/fleche_bouton.1c0f772eab526f8bef9a.png",
+    "static/media/ratingStars.png": "/BMenuiseries/static/media/ratingStars.de9ebaae25ee14203876.png",
+    "static/media/logo.jpg": "/BMenuiseries/static/media/logo.2f4cd9385cf4083d2e62.jpg",
+    "static/media/fleche_blanche_haut.png": "/BMenuiseries/static/media/fleche_blanche_haut.df28b8658310aad37c02.png",
+    "static/media/facebookGold.webp": "/BMenuiseries/static/media/facebookGold.d852f69987cdb4ce0ba6.webp",
+    "static/media/facebook.webp": "/BMenuiseries/static/media/facebook.2f29253a4ac564677fa7.webp",
+    "index.html": "/BMenuiseries/index.html",
+    "main.0fcbd3cb.css.map": "/BMenuiseries/static/css/main.0fcbd3cb.css.map",
+    "main.0d63640a.js.map": "/BMenuiseries/static/js/main.0d63640a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fcbd3cb.css",
+    "static/js/main.0d63640a.js"
+  ]
+}
