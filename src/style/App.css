@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap, https://fonts.googleapis.com/css2?family=Roboto:ital,ght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #e3e3e3;
+  font-family: "Barlow", sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #273752;
+  max-width: 2560px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+li {
+  font-size: 18px;
+}
+
+input,
+textarea {
+  color: #000;
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+.facebook {
+  width: 30px;
+  height: 30px;
+  transition: 0.5s;
+}
+
+.facebook:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #262626;
+}
+
+::-webkit-scrollbar-track {
+  border: 4px solid #273752;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e3e3e3;
+  border: 1px solid #7b6400;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-button {
+  height: 25px;
+  cursor: default;
+}
+
+::-webkit-scrollbar-button:active {
+  height: 22px;
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+  background: url(../assets/img/fleche_blanche_haut.png) center no-repeat,
+    #262626;
+  background-size: 15px;
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+  background: url(../assets/img/fleche_blanche_bas.png) center no-repeat,
+    #262626;
+  background-size: 15px;
+}
+
+#contactBlocParaSuccess {
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(
+    to bottom,
+    rgba(78, 255, 51, 0.9),
+    rgba(9, 66, 0, 0.9),
+    rgba(9, 66, 0, 0.9),
+    rgba(78, 255, 51, 0.9)
+  );
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 40px 0;
+  width: 300px;
+}
+
+#contactBlocParaError {
+  position: fixed;
+  text-align: center;
+  line-height: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 35, 35, 0.9),
+    rgba(66, 0, 0, 0.9),
+    rgba(66, 0, 0, 0.9),
+    rgba(255, 35, 35, 0.9)
+  );
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 20px 0;
+  width: 350px;
+}
+
+#checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 20px;
+}
+
+.checkbox_error {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+#checkbox input {
+  width: 15px;
+  height: 15px;
+}
+
+#checkbox input:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  #checkbox {
+    flex-direction: column;
+    margin: 20px 34px 0;
+    row-gap: 10px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 915px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  #contactBlocParaError {
+    line-height: 20px;
+    width: 200px;
+  }
+
+  #contactBlocParaSuccess {
+    width: 200px;
+    padding: 30px 0;
+  }
+}

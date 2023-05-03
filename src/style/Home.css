@@ -1,0 +1,6 @@
+.home_container {
+  display: flex;
+  flex-direction: column;
+  background-color: #273752;
+  color: #e3e3e3;
+}

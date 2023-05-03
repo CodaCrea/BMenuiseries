@@ -1,0 +1,148 @@
+.productions_container {
+  margin: 0 180px;
+}
+
+.made_in_french {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.flag img {
+  width: 30px;
+  height: 23px;
+  margin-bottom: -5px;
+}
+
+.productions_bloc-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0 30px;
+}
+
+.productions_bloc-para {
+  line-height: 23px;
+}
+
+.productions_container-card {
+  background-color: #00003d;
+  margin: 100px auto 130px;
+  padding: 60px 20px 100px;
+  transform: skewY(5deg);
+  box-shadow: 20px -20px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.productions_card-title {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  transform: skewY(-5deg);
+  margin-bottom: 60px;
+}
+
+.productions_bloc-productiondetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px 30px;
+}
+
+@media (max-width: 740px) {
+  .productions_bloc-title {
+    padding: 60px 0 10px;
+  }
+
+  .productions_bloc-para {
+    padding: 0 20px 60px;
+  }
+
+  .productions_section {
+    background-position: 50% 45% !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .made_in_french {
+    display: none;
+  }
+
+  .productions_section {
+    background: url(../assets/img/Made-in-France.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    border: solid 1px #7b6400;
+  }
+
+  .productions_container {
+    margin: 0;
+  }
+
+  .productions_bloc-title {
+    justify-content: center;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.4)
+    );
+    margin: 0;
+  }
+
+  .productions_bloc-para {
+    text-align: justify;
+    margin: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
+  }
+
+  .productions_bloc-title h1,
+  .productions_bloc-para p {
+    color: #fff;
+  }
+
+  .productions_container-card {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 61, 0.95),
+      rgba(39, 55, 82, 0.95)
+    );
+    padding: 60px 20px;
+    margin: 0 auto;
+    transform: skewY(0);
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .productions_card-title {
+    transform: skewY(0);
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .productions_section {
+    background-position: 50% 45%;
+    background-size: 100%;
+  }
+
+  .productions_container-card {
+    padding: 80px 0;
+  }
+
+  .productions_bloc-title {
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+
+  .productions_bloc-para {
+    padding: 0 40px 80px;
+  }
+
+  .productions_card-title {
+    margin-bottom: 50px;
+  }
+}
