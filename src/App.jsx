@@ -9,10 +9,10 @@ function App() {
       <Header />
       <Routes>
         <Route path='/BMenuiseries' element={<Home />} />
-        <Route path='/prestations' element={<Productions />} />
-        <Route path='/prestations/:id' element={<Product />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/avis' element={<Rating />} />
+        <Route path='/BMenuiseries/prestations' element={<Productions />} />
+        <Route path='/BMenuiseries/prestations/:id' element={<Product />} />
+        <Route path='/BMenuiseries/contact' element={<Contact />} />
+        <Route path='/BMenuiseries/avis' element={<Rating />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />

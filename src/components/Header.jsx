@@ -52,21 +52,21 @@ const Header = () => {
           </NavLink>}
           <div className="header_link"></div>
 
-          <NavLink aria-label="Onglet prestations" onClick={toggle} to="/prestations/"
+          <NavLink aria-label="Onglet prestations" onClick={toggle} to="/BMenuiseries/prestations/"
             className={({ isActive }) =>
               isActive ? "header-links" : "header-nolinks"}>
             <li>Prestations</li>
           </NavLink>
           <div className="header_link"></div>
 
-          <NavLink aria-label="Onglet contact" onClick={toggle} to="/contact"
+          <NavLink aria-label="Onglet contact" onClick={toggle} to="/BMenuiseries/contact"
             className={({ isActive }) =>
               isActive ? "header-links" : "header-nolinks"}>
             <li>Contact</li>
           </NavLink>
           <div className="header_link"></div>
 
-          <NavLink aria-label="Onglet avis" onClick={toggle} to="/avis"
+          <NavLink aria-label="Onglet avis" onClick={toggle} to="/BMenuiseries/avis"
             className={({ isActive }) =>
               isActive ? "header-links" : "header-nolinks"}>
             <li>Avis</li>
