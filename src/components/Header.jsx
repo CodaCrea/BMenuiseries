@@ -45,7 +45,7 @@ const Header = () => {
 
         <ul className={open ? "burger-nav-links" : "burger-nav-links-close"}>
 
-          {<NavLink aria-label="Onglet accueil" onClick={toggle} to="/"
+          {<NavLink aria-label="Onglet accueil" onClick={toggle} to="/BMenuiseries"
             className={({ isActive }) =>
               isActive ? "header-links" : "header-nolinks"}>
             <li>Accueil</li>
