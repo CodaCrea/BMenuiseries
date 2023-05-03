@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BMenuiseries/static/css/main.0fcbd3cb.css",
-    "main.js": "/BMenuiseries/static/js/main.b0ac6357.js",
+    "main.js": "/BMenuiseries/static/js/main.d9bd8840.js",
     "static/media/pergola_accueil.jpeg": "/BMenuiseries/static/media/pergola_accueil.785ce5e44e2ac16ab937.jpeg",
     "static/media/portail_rouge_ouvert.jpg": "/BMenuiseries/static/media/portail_rouge_ouvert.47077320332530074c23.jpg",
     "static/media/terrasse_accueil.jpg": "/BMenuiseries/static/media/terrasse_accueil.3d9901a774c5b1efa240.jpg",
@@ -16,10 +16,10 @@
     "static/media/facebook.webp": "/BMenuiseries/static/media/facebook.2f29253a4ac564677fa7.webp",
     "index.html": "/BMenuiseries/index.html",
     "main.0fcbd3cb.css.map": "/BMenuiseries/static/css/main.0fcbd3cb.css.map",
-    "main.b0ac6357.js.map": "/BMenuiseries/static/js/main.b0ac6357.js.map"
+    "main.d9bd8840.js.map": "/BMenuiseries/static/js/main.d9bd8840.js.map"
   },
   "entrypoints": [
     "static/css/main.0fcbd3cb.css",
-    "static/js/main.b0ac6357.js"
+    "static/js/main.d9bd8840.js"
   ]
 }
